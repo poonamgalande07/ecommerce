@@ -1,0 +1,110 @@
+.Address_card{
+    width: 500px;
+    height: 270px;
+    background-color: rgb(191, 164, 216);
+    padding: 0px 2rem;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0px 2rem; */
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Jost',sans-serif;
+
+}
+
+.main_ads{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Address_card .name{
+    font-size: 17px;
+    font-weight: 500;
+    border: 1.5px solid rgb(26, 25, 25);
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.Address_card .phone_no{
+       width: 200px;
+       height: 30px;
+       border: 1px solid black;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+
+}
+
+.main_ctp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin-top: 10px;
+}
+
+.main_ctp .city{
+    width: 200px;
+       height: 30px;
+       border: 1px solid black;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+}
+
+.main_ctp .pincode{
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.address{
+    width: 435px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 0px 1rem;
+}
+
+.ops_st{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin-top: 10px;
+}
+
+.ops_st .state{
+    font-size: 17px;
+    font-weight: 500;
+    border: 1.5px solid rgb(26, 25, 25);
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ops_st .ops_phoneno{
+    font-size: 17px;
+    font-weight: 500;
+    border: 1.5px solid rgb(26, 25, 25);
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
