@@ -1,0 +1,240 @@
+.product_details{
+    width: 98%;
+    margin: 0 auto;
+    background-color:rgb(241, 225, 243);
+    border-radius: 5px;
+    position: relative;
+  
+
+}
+.bread_crumb{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    border-bottom: 1px solid #e7e7e7;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.product_details .bread_crumb a{
+    text-decoration: none;
+    color: #575757;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 10px 10px;
+    transition: 0.5s ease-in;
+
+}
+
+.product_details .bread_crumb p{
+    font-size: 16px;
+    color: #575757;
+    
+
+}
+
+.product_details .bread_crumb a:hover{
+    color: rgb(23, 124, 219) ;
+   
+}
+
+
+.product_details .product_section{
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.product_section .images{
+    width: 350px;
+    height: auto;
+    position: relative;
+    margin-left: 50px;
+}
+
+.product_section .images .main_image{
+    width: 100%;
+    height: 350px;
+    background-color: aliceblue;
+    position: relative;
+}
+
+.product_section .images .main_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+
+
+.product_section .images .sub_images{
+    position:absolute;
+    top: -20px;
+    left: -80px;
+
+}
+
+.product_section .images .sub_images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.product_section .images .sub_images .img{
+     width: 70px;
+     height: 70px;
+     background-color: rgba(238, 142, 158, 0.589);
+   margin-top: 20px;
+}
+
+.product_section .button{
+    display: flex;
+    align-items: center;
+    width:500px;
+    height: 56px;
+    column-gap: 10px;
+    margin-top: 10px;
+
+}
+
+.button .orange{
+    width: 170px;
+    height: 50px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    padding: 0px 2rem;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+/* .button .orange button:hover{
+      background-color: orangered;
+} */
+
+.button .oranged{
+    width: 170px;
+    height: 50px;
+    background-color:orangered;
+    display: flex;
+    align-items: center;
+    padding: 0px 2rem;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.product_details .product_info .brands{
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+.product_section .product_info{
+    padding: 20px;
+    flex-grow: 1;
+}
+.product_info .titles{
+    width: 800px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 15px;
+    font-size: 20;
+   
+}
+
+
+.product_info .colors{
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     margin-top: 15px;
+
+}
+
+.product_info .colors .color{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.product_info .sizes{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+
+}
+
+.product_info .sizes .size{
+    width: 50px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.090) 0px 0px 15px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+
+
+.rate_review{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    
+}
+
+.rate_review .rating{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 39px;
+      height: 19px;
+      background-color: green;
+      font-size: 12;
+      color: #fff;
+      padding: 2px 3px 2px 4px;
+      border-radius: 4px;
+}
+
+.rate_review .review{
+      color: #555;
+}
+
+
+.price_info{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 10px;
+}
+
+.price_info .price{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.price_info .m_price{
+    text-decoration: line-through;
+    color: #555;
+}
+
+.price_info .discount{
+    color: green;
+    font-size: 16px;
+    font-weight: 600;
+}

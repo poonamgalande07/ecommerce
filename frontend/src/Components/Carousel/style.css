@@ -25,6 +25,10 @@
     object-position: top center;
 }
 
+.carousel_card .img img:hover{
+    transform: scale(1.1);
+}
+
 .carousel_card .carosel_Details{
     background-color: #fff;
     width: 95%;
@@ -43,4 +47,9 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.main h2{
+    font-size: 25px;
+    font-weight: 500;
 }

@@ -1,0 +1,374 @@
+.cart_section {
+  width: 98%;
+  margin: 10px auto;
+  position: relative;
+  display: flex;
+  gap: 40px;
+}
+
+.cart_ietms{
+  width: 70%;
+  height: auto;
+  position: relative;
+}
+
+.cart_ietms .cart_card {
+ width: 100%;height: auto;
+ background-color: #fff;
+ margin: 10px 0px;
+ display: flex;
+ gap: 20px;
+ padding: 10px;
+}
+
+
+.cart_card .cartimg{
+  width: 100px;
+  height:auto;
+  position: relative;
+}
+.cart_card .cartimg img{
+  width: 100%;height: 100px;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.cart_card .cartimg_info{
+  width: 400px;
+  position: relative;
+}
+
+
+.cart_card .cartimg_info .pricecart_detail {
+  display: flex;
+  column-gap: 20px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.cart_card .cartimg_info .pricecart_detail .cartimg_price {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.cart_card .cartimg_info .pricecart_detail .cartorg_price {
+  text-decoration: line-through;
+  color: #555;
+  display: flex;
+  align-items: center;
+}
+
+.cart_card .cartimg_info 
+.save_remove {
+  display: flex;
+  column-gap: 20px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.cart_card .cartimg_info  .save_remove .save {
+  font-weight: 550;
+  font-size: 19px;
+}
+
+.cart_card .cartimg_info  .save_remove .remove {
+  font-weight: 500;
+  font-size: 19px;
+}
+
+.cart_ietms  .place_btn {
+  background-color: #fff;
+  height: 100px;
+  box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.09) inset;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 15px;
+}
+
+.cart_ietms  .place_btn button {
+  background-color: #fb641b;
+  width: 250px;
+  height: 51px;
+  padding: 16px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+
+
+
+.up {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  gap: 350px;
+  align-items: center;
+  background-color: #fff;
+  font-size: 18px;
+}
+
+.up .del {
+  width: 180px;
+  height: 45px;
+  border: 1px solid rgba(0, 0, 255, 0.096);
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  border-radius: 4px;
+  color: blue;
+}
+
+.up .del:hover {
+  background-color: rgba(0, 0, 255, 0.034);
+  border-color: rgba(0, 0, 255, 0.158);
+  box-shadow: rgba(0, 0, 0, 0.137) 0px 0px 10px 0px;
+}
+
+.left .down {
+  margin-top: 13px;
+  background-color: #fff;
+  height: 250px;
+  box-shadow: rgba(0, 0, 0, 0.09);
+  border: 1px solid rgba(0, 0, 0, 0.236);
+}
+
+.down {
+  display: flex;
+  gap: 50px;
+  padding-top: 30px;
+}
+
+.left .cartimg {
+  width: 140px;
+  height: 140px;
+  margin-left: 30px;
+}
+
+.left .cartimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.cartimg .cart_btn {
+  display: flex;
+  column-gap: 5px;
+}
+.cart_btn button {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-top: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.212);
+}
+
+.cartimg .cart_btn p {
+  width: 50px;
+  height: 30px;
+  background-color: #fff;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.137);
+  border-radius: 5px;
+
+  justify-content: center;
+}
+.by_del {
+  display: flex;
+}
+
+.cartimg_info .cartimg_detail .carttitle {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.jul {
+  padding-left: 180px;
+  font-size: 15px;
+}
+
+.line {
+  width: 1.5px;
+  height: 15px;
+  background-color: black;
+  font-weight: 600;
+  margin-left: 3px;
+  margin-top: 2px;
+}
+
+.free {
+  padding-left: 8px;
+  font-size: 15px;
+  color: #555;
+}
+
+.cartimg_info .cartimg_detail .cartcolor {
+  color: #555;
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.cartimg_detail .seller {
+  margin-top: 10px;
+  color: #555;
+  font-size: 19px;
+}
+
+
+.left .place_btn {
+  background-color: #fff;
+
+  height: 100px;
+
+  box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.09) inset;
+}
+
+.place_btn button {
+  background-color: #fb641b;
+  width: 250px;
+  height: 51px;
+  padding: 16px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 480px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+/* RIGHT SECTION */
+
+.price_datails .right {
+  width: 27%;
+  height: 310px;
+  background-color: #fff;
+  border: 1px solid #5555550d;
+}
+
+.right_info {
+  border: 1px solid rgba(0, 0, 0, 0.136);
+  height: 260px;
+}
+
+.right .prc_det {
+  background-color: #fff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  font-size: 18px;
+  color: #555;
+  font-family: "Jost", sans-serif;
+}
+
+.prc_itm {
+  display: flex;
+  column-gap: 140px;
+  margin-top: 18px;
+}
+
+.prc_itm .prc_i {
+  padding-left: 1rem;
+  font-size: 17px;
+  font-family: "Jost", sans-serif;
+}
+
+.prc_itm .prc {
+  color: #555;
+  font-size: 18px;
+}
+
+.prc_dis {
+  display: flex;
+  column-gap: 160px;
+  margin-top: 15px;
+}
+
+.prc_dis .pr_d {
+  padding: 0px 1rem;
+  font-size: 18px;
+}
+
+.prc_dis .d {
+  color: #555;
+  font-size: 17px;
+  color: green;
+}
+
+.del_chr {
+  display: flex;
+  column-gap: 150px;
+  margin-top: 18px;
+}
+
+.del_chr .d_c {
+  padding-left: 1rem;
+  font-size: 17px;
+}
+
+.del_chr .chr {
+  color: #555;
+  font-size: 17px;
+}
+
+.del_line {
+  width: 310px;
+  height: 1px;
+  background-color: black;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.tlt_amt {
+  display: flex;
+  column-gap: 140px;
+  margin-top: 18px;
+}
+
+.tlt_amt .tlt {
+  padding-left: 1rem;
+  font-size: 18px;
+  font-weight: 530;
+  font-family: "Jost", sans-serif;
+}
+
+.tlt_amt .amt {
+  color: #555;
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.tlt_line {
+  width: 310px;
+  height: 1px;
+  background-color: black;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+.you_save {
+  height: 70px;
+  font-size: 17px;
+  padding-left: 1rem;
+  margin-top: 15px;
+  color: #388e3c;
+  font-weight: 550;
+  font-family: "Jost", sans-serif;
+}

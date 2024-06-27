@@ -11,10 +11,16 @@
     height: auto;
     background-color: #fff;
     padding: 10px;
-    border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.090) 0px 0px 15px 0px;
+    border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.274) 0px 0px 15px 0px;
   position: relative;
    
+}
+
+.card .title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .card .img{
@@ -30,7 +36,9 @@
     object-position: top center;
 }
 
-
+.card .img img:hover{
+    transform: scale(1.1);
+}
 
 .card .main_price{
     display: flex;
@@ -40,6 +48,11 @@
 .main_price .price{
     text-decoration: line-through;
     color: #555;
+}
+
+.main_price .discount_price{
+    font-weight: 500;
+    font-size: 22px;
 }
 
 .main_price .dicounted_percent{
@@ -54,7 +67,22 @@
       background-color: #fff;
 }
 
-.card:hover .product_Details{
+/* .card:hover .product_Details{
     transform: translateY(-20px);
-}
+} */
 
+.card .rating{
+    line-height: normal;
+    display:flex;
+    color: #fff;
+    width: 39px;
+    padding: 2px 4px 2px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    vertical-align: middle;
+    background-color: #388e3c;
+    column-gap: 3px;
+    align-items: center;
+
+}
